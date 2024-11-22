@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <form action="form">
+        <label for="user-name">User Name</label>
+        <input type="text" class="user-name" placeholder="Enter Username"  required>
+        <p class="user-name-err">User Name cant't be less than 4 characters</p>
+
+        <label for="name">Name</label>
+        <input type="text" class="name" placeholder="Enter Name" required>
+        <p class="name-err">You cant't use number in the name field</p>
+
+        <label for="email">Email</label>
+        <input type="email" class="email" placeholder="Enter E-mail" required>
+        <p class="email-err">Not a valid email</p>
+
+        <label for="phone-number">phone  Number</label>
+        <input type="number" class="phone-number" placeholder="Enter Phone number" required>
+        <p class="phn-err">Phone number can only contain numbers and of length of 7 characters </p>
+
+        <label for="password">Password</label>
+        <input type="password" class="password" placeholder="Enter password" required>
+        <br><br>
+        <label for="conf-password">Confirm Password</label>
+        <input type="password" class="conf-password"  placeholder="Enter confirm password" required>
+        <p class="pwd-err">Password and confirm password must be same</p>
+
+        <button type="submit" class="sbmt-btn">Submit</button>
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
