@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+        
     <form action="form">
+        <h1 class="h1">Form-Validation</h1>
+
         <label for="user-name">User Name</label>
         <input type="text" class="user-name" placeholder="Enter Username"  required>
         <p class="user-name-err">User Name cant't be less than 4 characters</p>
@@ -27,7 +29,7 @@
 
         <label for="password">Password</label>
         <input type="password" class="password" placeholder="Enter password" required>
-        <br><br>
+        
         <label for="conf-password">Confirm Password</label>
         <input type="password" class="conf-password"  placeholder="Enter confirm password" required>
         <p class="pwd-err">Password and confirm password must be same</p>
@@ -35,7 +37,6 @@
         <button type="submit" class="sbmt-btn">Submit</button>
 
     </form>
-
 
     <script src="script.js"></script>
 </body>
